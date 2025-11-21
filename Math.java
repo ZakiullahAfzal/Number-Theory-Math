@@ -63,5 +63,17 @@ final class Math{
 
     //================================================//
 
+/**
+ * Count digits 
+ * Time complaxity O(1)
+ */
 
+public static int countDogits(int n){
+   if(n == 0) return 0;
+   n = Math.abs(n);
+   return Math.log10(n) + 1;
+}
+
+//==========================================
+ ====//
 }
