@@ -30,8 +30,7 @@ final class Math{
     /**
      *  Check if number is prime
      *  Time complexity O(sqrt(n))
-     */
-    private static final int[] primes = {2,3,5,7};
+     */
 
     public static boolean isPrime(int n) {
     if (n <= 1) return false;
